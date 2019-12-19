@@ -3225,7 +3225,7 @@ input, select, textarea {
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
-		text-align: center;
+		/* text-align:center; */
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3308,7 +3308,7 @@ input, select, textarea {
 			background-color: rgba(247, 247, 247, 0.95);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 10000;
+			z-index: 10000;text-align:center;
 		}
 
 			#nav.alt ul li {
@@ -3324,10 +3324,10 @@ input, select, textarea {
 			#nav {
 				display: none;
 			}
-
+			text-align:center;
 				#nav + #main {
 					padding-top: 0;
-				}
+				}text-align:center;
 
 		}
 
@@ -3789,3 +3789,31 @@ input, select, textarea {
 			}
 
 		}
+
+  .button-wrapper {
+	display: block;
+	text-align: center;
+  }
+  
+  button {
+	border: none;
+	border-radius: 3em;
+
+	/* display: inline-block; */
+	font-size: 15px;
+	float:right;
+	width: 2px;
+	
+	margin: -2.9em 2em 2em 2em;
+	padding-left: 1em;
+	
+  }
+  
+  #CTA-btn {
+	background-color: #487ff9;
+	color: #fff !important;
+  }
+  
+  #CTA-btn:hover {
+	background-color: #57cd71;
+  }
